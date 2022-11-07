@@ -1,7 +1,7 @@
 /* mbed Microcontroller Library
  * Exemple de depart
  * Fait clignoter la led
- * Affoche PI puis un compteur sur le port serie
+ * Affiche PI puis un compteur sur le port serie
  */
 
 #include "mbed.h"
