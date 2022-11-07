@@ -1,6 +1,7 @@
 /* mbed Microcontroller Library
- * Copyright (c) 2019 ARM Limited
- * SPDX-License-Identifier: Apache-2.0
+ * Exemple de depart
+ * Fait clignoter la led
+ * Affoche PI puis un compteur sur le port serie
  */
 
 #include "mbed.h"
