@@ -2,6 +2,7 @@
  * Exemple de depart
  * Fait clignoter la led
  * Affiche PI puis un compteur sur le port serie
+ * Utilise la version mbed-OS 6.16.0
  */
 
 #include "mbed.h"
