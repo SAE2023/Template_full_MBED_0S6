@@ -7,7 +7,7 @@
 
 #include "mbed.h"
 
-#define WAIT_TIME_MS 500 
+#define WAIT_TIME_US 1000000 
 DigitalOut led1(LED1);
 
 int main()
@@ -22,6 +22,6 @@ int main()
         led1 = !led1;
         printf("Print float counter = %f\n", pi);
         pi=pi+1;
-        thread_sleep_for(WAIT_TIME_MS);
+        wait_us(WAIT_TIME_US);  // attente bloquante
     }
 }
