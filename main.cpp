@@ -10,7 +10,7 @@ DigitalOut led1(LED1);
 
 int main()
 {
-    double pi=1.12345;
+    double pi=0;
     printf("Mbed OS %d.%d.%d.\n", MBED_MAJOR_VERSION, MBED_MINOR_VERSION, MBED_PATCH_VERSION);
     pi=4*atan(1.0);
     printf("Print float %f\n", pi);
