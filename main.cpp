@@ -3,6 +3,7 @@
  * Fait clignoter la led
  * Affiche PI puis un compteur sur le port serie
  * Utilise la version mbed-OS 6.16.0
+ * Mise à jour du 20/01/2023
  */
 
 #include "mbed.h"
